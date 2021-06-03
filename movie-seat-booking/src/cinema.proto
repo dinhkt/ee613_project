@@ -1,0 +1,14 @@
+syntax = "proto3";
+package cinema;
+
+service CinemaServices {
+    rpc checkseat(Movie) returns (SeatInfo){}
+}
+
+message SeatInfo {
+    repeated string seatno=1;
+}
+
+message Movie {
+	string name = 1;
+}

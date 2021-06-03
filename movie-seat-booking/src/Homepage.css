@@ -1,0 +1,133 @@
+body {
+  background-color: black;
+  font-family: cambria;
+}
+
+.navbar-brand {
+  font-weight: 900;
+}
+
+.searchbar {
+  margin: auto;
+  height: 100%;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: auto;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 30px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input {
+  box-sizing: border-box;
+  padding: auto;
+  padding-left: 10px;
+  width: 300px;
+  caret-color: white;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover {
+  border: 1px solid white;
+}
+
+.search_icon {
+  height: 30px;
+  width: 30px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+.slide-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.carousel-inner {
+  padding: 20px 60px;
+  height: 600px;
+}
+
+.poster-container {
+  padding: 50px;
+}
+
+.movieposter {
+  height: 400px;
+  width: 100%;
+}
+
+.title-container {
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.title-decor {
+  width: 400px;
+  height: 40px;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.banner-des {
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 3px 5px #c4b59d, 0 -1px 1px #fafafa;
+  width: 50%;
+  left: 25%;
+  top: 50%;
+  color: white !important;
+  z-index: 1;
+}
+
+.banner-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.poster-title {
+  font-weight: bold;
+}
+
+.poster-btn {
+  border-radius: 38px;
+  padding: 10px 30px;
+  font-weight: 600;
+  color: white;
+  background-color: #cf9d48;
+}
+
+.poster-btn:hover {
+  cursor: pointer;
+}
