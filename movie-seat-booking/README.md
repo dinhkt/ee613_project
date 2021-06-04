@@ -1,6 +1,5 @@
 ## Movie Seat Booking App
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://react-movie-seat-booking.now.sh/)
 
 ### Usage
 ```bash
