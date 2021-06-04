@@ -60,7 +60,7 @@ const Payment = () => {
                     axios.post('http://127.0.0.1:7897/score', {
                             username:user,
                             earned_score:finalpayment,
-                            spent_score:checked
+                            spent_score:checked.toString()
                     })
                         .then(function (res) {
                             if(res.status){

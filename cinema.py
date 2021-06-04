@@ -30,11 +30,11 @@ def get_score_info():
     return response
   elif request.method == 'POST':
     content = request.get_json(force=True)
-    #print("aaa:"+content["spent_score"])
+    #print(content)
     for each in scoring:
       if each["username"]==content["username"]:
-        if content["spent_score"]==True:
-          each["discount_score"]==0
+        if content["spent_score"]=="true":
+          each["discount_score"]=0
         each["discount_score"]+=int(content["earned_score"])
         break
     response=jsonify({"success": True})
