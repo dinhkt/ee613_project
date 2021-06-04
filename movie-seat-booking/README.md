@@ -2,6 +2,8 @@
 
 
 ### Usage
+
+    pip3 install flask, flask-cors,jsonify
 ```bash
     yarn install
     
